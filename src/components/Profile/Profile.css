@@ -1,0 +1,24 @@
+/* ******************** General code ******************** */
+
+:root{
+    --red : rgb(255, 0, 64) ;
+  }
+/* Profil Photo */
+.profilPhoto{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    border: 1px solid rgb(31, 31, 31);
+    box-shadow: 0 0 10px rgb(128, 127, 127), 0 0 4px black ;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+}
+.fullname{
+    color: var(--red);
+    text-shadow: 2px 2px 2px rgba(128, 127, 127, 0.411), 0 0 1px black ;
+}
+.adresse{
+    font-style: italic;
+    font-weight: 500;
+}
